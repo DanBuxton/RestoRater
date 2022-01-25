@@ -1,0 +1,25 @@
+{
+  "name": "restorater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "devClient": "cd client && npm run dev",
+    "devServer": "cd server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanBuxton/RestoRater.git"
+  },
+  "author": "Staffordshire University",
+  "contributors": [
+    "Daniel J Buxton",
+    "Theophilus Swoyele",
+    "Solene Clenet"
+  ],
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/DanBuxton/RestoRater/issues"
+  },
+  "homepage": "https://github.com/DanBuxton/RestoRater#readme"
+}
