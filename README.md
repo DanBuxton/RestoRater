@@ -1,8 +1,8 @@
 # RestoRater
 
-Server: /[server](server/readme.md)
+Server: /[server](blob/master/server/README.md)
 
-Client: /[client](client/readme.md)
+Client: /[client](blob/master/client/README.md)
 
 ## GNU GENERAL PUBLIC LICENSE
 
