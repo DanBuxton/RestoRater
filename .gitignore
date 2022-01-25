@@ -1,6 +1,7 @@
 # package-lock.json
 
 # !**/*package.json
+server/.git/**
 
 # Logs
 logs
