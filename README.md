@@ -1,8 +1,16 @@
 # RestoRater
 
+## Docs
+
 Server: /[server](server/README.md)
 
-Client: /[client](client/README.md)
+## How to install and run
+
+```
+npm i
+npm run devServer
+npm run devClient
+```
 
 ## GNU GENERAL PUBLIC LICENSE
 
