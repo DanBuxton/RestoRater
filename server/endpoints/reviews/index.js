@@ -6,12 +6,13 @@ const app = Router();
 const { restaurants, reviews, helper, ReviewSchema: Review } = require('../../db');
 
 app.post('/', async (req, res, next) => {
-    await Review.validateAsync(req.body);
+    await Review.validateAsync(req.body).catch(next);
     const {
         content,
         // summary,
         recommended,
-        user_id,
+        // user_id,
+        username,
         rating,
         restaurant_id 
     } = req.body;

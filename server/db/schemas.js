@@ -11,9 +11,10 @@ const UserSchema = Joi.object({
 const ReviewSchema = Joi.object({
     id: Joi.number(),
     content: Joi.string().required(),
-    summary: Joi.string().default(null).description('Auto generated based on content'), //TODO: Read content with ML AI to guess
+    //summary: Joi.string().default(null).description('Auto generated based on content'), //TODO: Read content with ML AI to guess
     recommended: Joi.bool().default(null).description('Auto generated based on content'), // TODO: Read content with ML AI to guess
-    user: Joi.number().required().description('User id'),
+    // user: Joi.number().required().description('User id'),
+    username: Joi.string().max(26).required(),
     rating: Joi.number().min(0).max(5).required(),
     restaurant: Joi.number().required().description('Restaurant id')
 });

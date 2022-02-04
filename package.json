@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "devClient": "cd client && npm run dev",
+    "devClient": "serve client",
     "devServer": "cd server && npm run dev"
   },
   "repository": {
@@ -14,12 +14,15 @@
   "author": "Staffordshire University",
   "contributors": [
     "Daniel J Buxton",
-    "Theophilus Swoyele",
-    "Solene Clenet"
+    "Solene Clenet",
+    "Theophilus Swoyele"
   ],
   "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/DanBuxton/RestoRater/issues"
   },
-  "homepage": "https://github.com/DanBuxton/RestoRater#readme"
+  "homepage": "https://github.com/DanBuxton/RestoRater#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
 }

@@ -5,7 +5,8 @@
     ],
     "importCost.smallPackageSize": 60,
     "importCost.mediumPackageSize": 120,
-    "importCost.timeout": 200000, // Sometimes takes a long time
+    "importCost.timeout": 200000,
+    "liveServer.settings.port": 5501, // Sometimes takes a long time
     
     // "todohighlight.isEnable": true,
     // "todohighlight.isCaseSensitive": true,
